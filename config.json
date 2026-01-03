@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Quotes - All",
+    "url": "https://quotes.toscrape.com/",
+    "dynamic": false,
+    "container": "div.quote",
+    "fields": {
+      "Quote": "span.text",
+      "Author": "small.author"
+    }
+  },
+  {
+    "name": "Quotes - Love",
+    "url": "https://quotes.toscrape.com/tag/love/",
+    "dynamic": false,
+    "container": "div.quote",
+    "fields": {
+      "Quote": "span.text",
+      "Author": "small.author"
+    }
+  },
+  {
+    "name": "Quotes - Inspirational",
+    "url": "https://quotes.toscrape.com/tag/inspirational/",
+    "dynamic": false,
+    "container": "div.quote",
+    "fields": {
+      "Quote": "span.text",
+      "Author": "small.author"
+    }
+  },
+  {
+    "name": "Books - All",
+    "url": "https://books.toscrape.com/",
+    "dynamic": false,
+    "container": "article.product_pod",
+    "fields": {
+      "Book Name": "h3 a",
+      "Price": ".price_color"
+    }
+  },
+  {
+    "name": "Books - Science",
+    "url": "https://books.toscrape.com/catalogue/category/books/science_22/index.html",
+    "dynamic": false,
+    "container": "article.product_pod",
+    "fields": {
+      "Book Name": "h3 a",
+      "Price": ".price_color"
+    }
+  },
+  {
+    "name": "Books - Travel",
+    "url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+    "dynamic": false,
+    "container": "article.product_pod",
+    "fields": {
+      "Book Name": "h3 a",
+      "Price": ".price_color"
+    }
+  },
+  {
+    "name": "Books - Mystery",
+    "url": "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html",
+    "dynamic": false,
+    "container": "article.product_pod",
+    "fields": {
+      "Book Name": "h3 a",
+      "Price": ".price_color"
+    }
+  }
+]
